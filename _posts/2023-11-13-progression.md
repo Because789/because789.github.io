@@ -5,7 +5,7 @@ categories: Politics
 # published: false
 ---
 
-People tend to get very confused about the progression of time in a political life.
+People tend to get very confused about the progression of time in a political life. Here's a little helper.
 
 How people think it works:
 
