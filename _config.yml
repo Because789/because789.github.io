@@ -4,9 +4,9 @@ baseurl: ""                          # place folder name if the site is served i
 
 title: "A blog by Because789"
 description: "Random thoughts of a confused mind."
-author:
-  name: "Because789"
-  email: "because789@gmx.ch"
+# author:
+#   name: "Because789"
+#   email: "because789@gmx.ch"
 
 exclude: ['README.md']
 
@@ -15,7 +15,8 @@ minima:
   skin: dark
   date_format: "%d. %b %Y"
   header_pages:
-  - static/about.md
+  - categories.md
+  - about.md
   # Generate social links in footer:
   social_links:
     - { platform: github, user_url: "https://github.com/Because789" }
