@@ -12,10 +12,15 @@ exclude: "README.md"
 include:
   - _pages
 header_pages:
-  - _pages/categories.html
+  - _pages/categories.md
   - _pages/about.md
 permalink: /:categories/:title/
 show_excerpts: true
+
+# plugins:
+#   - jekyll-feed
+#   - jekyll-remote-theme
+#   - jekyll-seo-tag
 
 remote_theme: jekyll/minima
 minima:
@@ -41,8 +46,6 @@ minima:
   #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #   - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+  #
   # google_analytics: G-T7LR95T6F9
-# plugins:
-  # - jekyll-feed
-  # - jekyll-remote-theme
-  # - jekyll-seo-tag
+

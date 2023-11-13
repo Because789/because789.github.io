@@ -30,14 +30,14 @@ layout: base
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
         <!-- Add categories to the bottom of the post -->
-        <div class="post-categories" float:right>
+        <div class="post-categories">
             {% if post %}
             {% assign categories = post.categories %}
             {% else %}
             {% assign categories = page.categories %}
             {% endif %}
             {% for category in categories %}
-            <p class="post-meta">Categories: <a
+            <p class="post-meta" style="text-align: right;">Categories: <a
                 href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a></p>
             {% unless forloop.last %}&nbsp;{% endunless %}
             {% endfor %}
