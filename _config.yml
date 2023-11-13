@@ -9,6 +9,7 @@ description: "Random thoughts of a confused mind."
 #   email: "because789@gmx.ch"
 
 exclude: ['README.md']
+permalink: /:categories/:title/
 
 remote_theme: jekyll/minima
 minima:
