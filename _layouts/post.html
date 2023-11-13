@@ -37,8 +37,8 @@ layout: base
             {% assign categories = page.categories %}
             {% endif %}
             {% for category in categories %}
-            <p class="post-meta">Categories:</p><a
-                href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            <p class="post-meta">Categories: <a
+                href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a></p>
             {% unless forloop.last %}&nbsp;{% endunless %}
             {% endfor %}
         </div>
