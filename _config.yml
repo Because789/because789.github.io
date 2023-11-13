@@ -11,16 +11,16 @@ description: "Random thoughts of a confused mind."
 exclude: "README.md"
 include:
   - _pages
-# permalink: /:categories/:title/
+header_pages:
+  - _pages/categories.html
+  - _pages/about.md
+permalink: /:categories/:title/
 show_excerpts: true
 
 remote_theme: jekyll/minima
 minima:
   skin: dark
   date_format: "%d. %b %Y"
-  header_pages:
-    - _pages/categories.html
-    - _pages/about.md
 
   # Generate social links in footer:
   social_links:
