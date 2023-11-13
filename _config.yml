@@ -9,10 +9,10 @@ description: "Random thoughts of a confused mind."
 #   email: "because789@gmx.ch"
 
 exclude: "README.md"
-permalink: /:categories/:title/
-
 include:
   - _pages
+# permalink: /:categories/:title/
+show_excerpts: true
 
 remote_theme: jekyll/minima
 minima:
