@@ -7,6 +7,10 @@ categories: Politics
 
 People tend to get very confused about the progression of time in a political life.
 
-How people think it works | How it actually works
-:------------------------:|:-------------------------:
-![](/assets/ProgressionWrong.jpg) | ![](/assets/ProgressionRight.jpg)
+How people think it works:
+
+![How people think it works](/assets/ProgressionWrong.jpg)
+
+How it actually works:
+
+![How it actually works](/assets/ProgressionRight.jpg)
