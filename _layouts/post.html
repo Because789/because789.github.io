@@ -29,8 +29,8 @@ layout: base
 
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
-
-        <div class="post-categories">
+        <!-- Add categories to the bottom of the post -->
+        <div class="post-categories" margin-left: auto>
             {% if post %}
             {% assign categories = post.categories %}
             {% else %}
