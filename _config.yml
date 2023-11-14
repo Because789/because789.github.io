@@ -26,6 +26,7 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
   #date_format: "%d. %b %Y"
+  date_format: "%b %-d, %Y"
 
   # Generate social links in footer:
   social_links:
